@@ -1,0 +1,25 @@
+Entradas:
+
+
+Los datos de la simulaci´on vienen en un archivo de texto plano llamado ”banco.dat” cuyo formato de
+entrada es el siguiente: la primera l´ınea indica la cantidad de cajas p´ublico general, la cantidad de cajas de
+clientes titulares y la cantidad de cajas destinadas a empresas. Todos estos datos son n´umeros mayores o iguales
+a 1 y est´an separados por un espacio.
+Las siguientes l´ıneas traen informaci´on de los clientes que ingresan al banco. Cada l´ınea contiene la siguiente
+informaci´on:
+
+Identificaci´on de cliente, corresponde a un n´umero correlativo entero mayor que cero
+Tipo de cliente, correspondiente a una letra ”G” (p´ublico general), ”T” (cliente titularde Cta. Cte.) o ”E”
+(cliente empresa)
+
+Indicador de necesidad de trato preferente, valor entero 0 (cliente no requiere trato preferente) o 1 (cliente
+requiere trato preferente)
+
+Tiempo de llegada, corresponde a un n´umero entero mayor o igual a cero.
+
+Tiempo estimado para la realizaci´on del tr´amite bancario, un n´umero entero mayor o igual a 1
+Los datos de los clientes en el archivo ”banco.dat” no vienen ordenados por tiempo de llegada.
+La entradas deben ser validadas y en el caso que alg´un dato no cumpla con los valores establecidos como
+normales el programa debe:
+detenerse si el o los valores err´oneos corresponden a la cantidad de cajas (cualquier tipo de ellas)
+descartar el registro si el o los valores err´oneos corresponden a alg´un cliente
